@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Maturafeier | Info </title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+
+    
+
+    <style type="text/css">
+        *{
+            font-family: Roboto;
+            color: #fff;
+
+        }
+
+        body{
+            height: 100vh !important;
+            background-color: #282828;
+            overflow-y: scroll !important;
+            overflow-x: hidden;
+        }
+
+
+
+
+        .top-bar-right{
+            margin-right: 50px;
+        }
+
+        .top-bar ul li a{
+            font-size: 16pt;
+            letter-spacing: 4px;
+            color: #fff;
+
+        }
+
+        .top-bar, .top-bar ul li a{
+            background-color: #282828;
+        }
+
+        .top-bar ul li a:hover{
+            color: #52CBD8;
+        }
+
+        .vertical medium-horizontal menu{
+            background-color: #282828;
+        }
+
+        .logo{
+            margin-left: 50px;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo_img{
+            height: 8vh;
+        }
+
+        .title-bar{
+            background-color: #282828;
+        }
+
+        .fixed{
+            height: 10vh;
+            background-color: #282828;
+        }
+
+        #slide1, #slide2{
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: #282828;
+            position: relative;
+
+
+
+        }
+
+        #slide1{
+            height: 90vh !important;
+        }
+
+
+
+
+
+
+        .fa-chevron-circle-down{
+            color: #52CBD8;
+            font-size: 5vw;
+
+        }
+
+        .text{
+            padding-left: 10vw;
+            padding-right: 10vw;
+            font-size: 1.3vw;
+        }
+
+        .gtext{
+            font-size: 1.5vw;
+            font-family: 'Archivo Black', sans-serif;
+            text-align: center;
+
+        }
+
+        .textd, .texto, .textz{
+
+            TEXT-ALIGN: CENTER;
+        }
+
+        .ueberleitung{
+            font-size: 1.3vw;
+            padding-top: 5vh;
+        }
+
+        .ueberschrift{
+            font-family: 'Archivo Black', sans-serif;
+            font-size: 3vw;
+            margin-bottom: 5vh;
+        }
+
+        .clear {
+            clear: both;
+            height: 5px;
+        }
+
+        br{
+            line-height: 5vh;
+        }
+
+        .ort{
+            padding-top: 10vh;
+            width: 100vw;
+            height: 70vh;
+            background: url('img/ortbild.png') 50% no-repeat;
+            background-size:cover;
+
+        }
+
+       @media only screen and (min-width: 300px){
+           .ueberschrift{
+               font-size: 6vw;
+           }
+
+           .text, .ueberleitung, .gtext, .textd, .texto, .textz{
+               font-size: 3vw;
+           }
+       }
+
+        @media only screen and (min-width: 650px) {
+            .ueberschrift{
+                font-size: 5vw;
+            }
+
+            .text, .ueberleitung, .gtext, .textd, .texto, .textz{
+                font-size: 2vw;
+            }
+
+        }
+
+        @media only screen and (min-width: 920px) {
+            .ueberschrift{
+                font-size: 4vw;
+            }
+
+            .text, .ueberleitung, .gtext, .textd, .texto, .textz{
+                font-size: 1.75vw;
+            }
+
+        }
+
+        @media only screen and (min-width: 1130px) {
+
+            #slide1{
+                height: unset;
+                position: relative;
+                top: 10vh;
+            }
+            .ueberschrift{
+                font-size: 5vw;
+            }
+
+            .text, .ueberleitung, .gtext, .textd, .texto, .textz{
+                font-size: 2vw;
+            }
+
+        }
+
+
+
+        @media only screen and (min-width: 1260px) {
+            .ueberschrift{
+                font-size: 3vw;
+            }
+
+            .text, .ueberleitung, .gtext, .textd, .texto, .textz{
+                font-size: 1.5vw;
+            }
+
+        }
+
+        @media only screen and (min-width: 1600px) {
+            #slide1{
+                height: 90vh;
+                top: 0vh;
+                width: 100vw;
+            }
+
+
+            .ueberschrift{
+                font-size: 3vw;
+            }
+
+            .text, .ueberleitung, .gtext, .textd, .texto, .textz{
+                font-size: 1.3vw;
+            }
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+<div class="fixed">
+    <div class="top-bar" data-topbar role="navigation">
+        <div class="logo-wrapper">
+            <div class="logo">
+                <a href="index.html"><img class="logo_img" src="img/logo_white.png" ></a>
+            </div>
+        </div>
+
+        <div class="title-bar" data-responsive-toggle="resmenu" data-hide-for="medium">
+            <button class="menu-icon" type="button" data-toggle="resmenu"></button>
+            <div class="title-bar-title">Men&uuml; </div>
+        </div>
+
+        <div class="top-bar-right" data-magellan  id="resmenu">
+            <ul class="vertical medium-horizontal menu">
+                <li><a href="info.html">INFO</a></li>
+                <li><a href="comingsoon.html">FOTOS</a></li>
+                <li><a href="login.php">LOGIN</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div id="slide1">
+    <h1 class="ueberschrift">Maturafeier</h1>
+    <p class="text">
+        Nachdem die m&uuml;ndliche Matura vorbei ist, treffen wir uns alle bei der Eventlocation. Anfangs wird es einen Sektempfang geben, der &uuml;bergeht zur Zeugnisvergabe. Nach einer Ansprache des Direktors/Abteilungsvorstandes werden die besten Sch&uuml;ler geehrt, bevor das gemeinsame Essen beginnt. W&auml;hrend dem Essen wird es kleine Einlagen wie einen „Lehrer-Award“ geben, die die besten Lehrer bestimmen soll. Zum Schluss lassen wir alle zusammen den Abend bei Musik und gen&uuml;gend zu Trinken ausklingen.<br>
+        Um genau zu ermitteln wie viele Personen kommen werden, ist eine Anmeldung auf dieser Seite eingebunden, die gleichzeitig abfragt, wie viele Personen dich begleiten werden. Bitte f&uuml;lle diese Anmeldung so bald wie m&ouml;glich aus!
+        Nach der Maturafeier wird die Webseite dafür genutzt, die entstandenen Fotos der Abschlussfeier zu zeigen, damit man in Erinnerungen schwelgen kann. <br>
+        Die Teilnahme ist bis zum 23. April 2018 bekannt zu geben. Für die Teilnahme an der Feier entstehen pro Person Kosten von 20€. <br>
+                        Dieser Betrag deckt das Buffet (exkl. Getr&auml;nke) ab.
+    </p>
+    
+
+    <p class="ueberleitung">Weitere Informationen</p>
+    <a href="#grid" data-smooth-scroll><i class="fa fa-chevron-circle-down"></i></a>
+</div>
+
+<div class="clear"></div>
+
+<div id="slide2">
+
+    <h1 class="ueberschrift" id="grid">Weitere Informationen</h1>
+
+    <p class="gtext">Datum<br><span class="textd">08.06.2018</span></p>
+    <p class="gtext">Ort<br><span class="texto">G&ouml;sser Schl&ouml;ssl, Ge&szlig;lgasse 4A</span><br></p>
+    <p class="gtext">Zeit<br><span class="textz">18:00</span></p>
+    <p class="gtext">Preis<br> <span class="textp">20€ / Person</span></p>
+
+    <div class="ort"></div>
+
+
+</div>
+
+
+
+
+
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/what-input.js"></script>
+<script src="js/vendor/foundation.js"></script>
+<script src="js/app.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="js/skrollr.js"></script>
+<script src="js/_main.js"></script>
+
+
+</body>
+</html>

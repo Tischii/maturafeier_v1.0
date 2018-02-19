@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Maturafeier | Info </title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+
+
+
+    <style type="text/css">
+        html{
+
+        }
+
+        *{
+            font-family: Roboto;
+            color: #fff;
+            background-color: #282828;
+        }
+
+        .top-bar,.top-bar ul li a, .title-bar, .fixed{
+            background-color: #282828;
+        }
+
+        .top-bar-right{
+            margin-right: 50px;
+        }
+
+        .top-bar ul li a{
+            font-size: 16pt;
+            letter-spacing: 4px;
+            color: #fff;
+            padding-top: 4vh;
+            padding-bottom: 4vh;
+            height:10vh;
+        }
+
+
+
+        .top-bar ul li a:hover{
+            color: #52CBD8;
+        }
+
+
+
+        .top-bar, .title-bar, .top-bar-right{
+            background-color: #282828;
+
+        }
+
+        .top-bar ul{
+            background-color: #282828;
+        }
+
+        .logo{
+            margin-left: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo_img{
+            height: 8vh;
+
+        }
+
+        .fixed{
+            height: 10vh;
+            position: fixed;
+            width: 100%;
+            z-index: 10000;
+        }
+
+
+
+        .title-bar-title{
+            color: #fff;
+            font-weight: normal;
+            font-family: Roboto;
+            font-size: 16pt;
+            letter-spacing: 4px;
+        }
+
+        #slide1, #slide2{
+            height: 90vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: #282828;
+            position: relative;
+            top: 10vh;
+        }
+
+        #slide2{
+            top:80vh;
+        }
+
+        .fa-chevron-circle-down{
+            color: #52CBD8;
+            font-size: 5vw;
+        }
+
+        .text{
+            padding-left: 5vw;
+            padding-right: 5vw;
+            font-size: 3vw;
+        }
+
+        .gtext,.ttext{
+            text-align: center;
+
+        }
+
+        .ttext{
+
+            font-family: 'Archivo Black', sans-serif;
+            font-size: 3.5vw;
+        }
+
+        .gtext{
+            font-size: 3.5vw;
+            font-family: 'Archivo Black', sans-serif;
+
+        }
+
+        .kalender, .clock, .ortbild{
+            height: 50%;
+            width: 20%;
+        }
+
+        .ueberleitung{
+            font-size: 1.8vw;
+
+        }
+
+        .ueberschrift{
+            font-family: 'Archivo Black', sans-serif;
+            font-size: 5vw;
+
+
+        }
+
+        .grid-x{
+            position: relative;
+            top: 5vh;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+<div class="fixed">
+    <div class="top-bar" data-topbar role="navigation">
+        <div class="logo-wrapper">
+            <div class="logo">
+                <img class="logo_img" src="img/logo_white.png" >
+            </div>
+        </div>
+
+        <div class="title-bar" data-responsive-toggle="resmenu" data-hide-for="medium">
+            <div class="title-bar-right">
+                <button type="button" data-toggle="resmenu"><i class="fa fa-bars"></i></button>
+                <div class="title-bar-title">MEN&Uuml;</div>
+            </div>
+        </div>
+
+        <div class="top-bar-right" data-magellan id="resmenu">
+            <ul class="vertical medium-horizontal menu">
+                <li><a class="linkactive" href="info.html">INFO</a></li>
+                <li><a class="" href="comingsoon.html">FOTOS</a></li>
+                <li><a class="" href="login.php">LOGIN</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div id="slide1">
+    <h1 class="ueberschrift">Information</h1>
+    <p class="text">
+        Nachdem die m&uuml;ndliche Matura vorbei ist, treffen wir uns alle bei der Eventlocation. Anfangs wird es einen Sektempfang geben, der &uuml;bergeht zur Zeugnisvergabe. Nach einer Ansprache des Direktors/Abteilungsvorstandes werden die besten Sch&uuml;ler geehrt, bevor das gemeinsame Essen beginnt. W&auml;hrend dem Essen wird es kleine Einlagen wie einen „Lehrer-Award“ geben, die die besten Lehrer bestimmen soll. Zum Schluss lassen wir alle zusammen den Abend bei Musik und gen&uuml;gend zu Trinken ausklingen.<br>
+        Um genau zu ermitteln wie viele Personen kommen werden, ist eine Anmeldung auf dieser Seite eingebunden, die gleichzeitig abfragt, wie viele Personen dich begleiten werden. Bitte f&uuml;lle diese Anmeldung so bald wie m&ouml;glich aus!
+        Nach der Maturafeier wird die Webseite dafür genutzt, die entstandenen Fotos der Abschlussfeier zu zeigen, damit man in Erinnerungen schwelgen kann.
+    </p>
+
+    <p class="ueberleitung">Weitere Informationen</p>
+    <a href="#slide2" data-smooth-scroll><i class="fa fa-chevron-circle-down"></i></a>
+</div>
+
+
+
+<div id="slide2">
+
+    <h1 class="ueberschrift" id="grid">Maturafeier</h1>
+
+
+    <div class="grid-x">
+
+        <div class="large-4 medium-12 small-12">
+            <h1 class="gtext"> Datum </h1>
+            <img src="img/kalender.png" class="kalender float-center">
+            <p class="ttext">08.06.2018</p>
+        </div>
+
+        <div class="large-4 medium-12 small-12">
+            <h1 class="gtext"> Zeit </h1>
+            <img src="img/clock.jpg" class="clock float-center">
+            <p class="ttext"> 18:00</p>
+        </div>
+
+        <div class="large-4 medium-12 small-12">
+            <h1 class="gtext"> G&ouml;sser Schlössl</h1>
+            <img src="img/ort.png" class="ortbild float-center">
+            <p class="ttext">Ge&szlig;lgasse 4, 1230 Wien </p>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/what-input.js"></script>
+<script src="js/vendor/foundation.js"></script>
+<script src="js/app.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="js/skrollr.js"></script>
+<script src="js/_main.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maturafeier</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="icons/foundation-icons.css" />
+    <link rel="stylesheet" href="css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+
+    <style type="text/css">
+      *{
+        font-family: Roboto;
+      }
+
+      .hero-section{
+        background-image: url("img/background.jpg");
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        background-position:center;
+        height: 90vh;
+        background-repeat: no-repeat;
+
+      }
+
+      .top-bar-right{
+        margin-right: 50px;
+      }
+
+      .top-bar ul li a{
+        font-size: 16pt;
+        letter-spacing: 4px;
+        color: #fff;
+
+      }
+
+      .top-bar, .top-bar ul li a{
+        background-color: #282828;
+      }
+
+      .top-bar ul li a:hover{
+        color: #52CBD8;
+      }
+
+      .vertical medium-horizontal menu{
+        background-color: #282828;
+      }
+
+      .logo{
+        margin-left: 50px;
+        display: flex;
+        align-items: center;
+      }
+
+      .logo_img{
+        height: 8vh;
+      }
+
+      .title-bar{
+        background-color: #282828;
+      }
+
+      .fixed{
+        height: 10vh;
+        background-color: #282828;
+      }
+
+      .header{
+        font-family: 'Archivo Black', sans-serif;
+        font-size: 100pt;
+        font-weight: bold;
+        -webkit-animation: colorchange 5s;
+        animation: colorchange 5s;
+        color: #fff;
+
+      }
+
+
+
+      @-webkit-keyframes colorchange {
+        from{color: #282828;}
+        to{color: #fff;}
+      }
+
+      @keyframes colorchange{
+        from{color: #282828;}
+        to{color: #fff;}
+      }
+
+      @media only screen and (max-width: 700px) {
+
+        .header{
+          font-size: 32pt;
+        }
+        .fixed{
+          height: 13vh;
+        }
+        .logo_img{
+          height: 9vh;
+        }
+
+      }
+
+      @media only screen and (max-width: 350px) {
+        .header{
+          font-size: 24pt;
+        }
+
+      }
+
+
+    </style>
+  </head>
+  <body>
+
+    <div class="fixed">
+      <div class="top-bar" data-topbar role="navigation">
+        <div class="logo-wrapper">
+          <div class="logo">
+            <img class="logo_img" src="img/logo_white.png" >
+          </div>
+        </div>
+
+        <div class="title-bar" data-responsive-toggle="resmenu" data-hide-for="medium">
+          <button class="menu-icon" type="button" data-toggle="resmenu"></button>
+          <div class="title-bar-title">Men&uuml; </div>
+        </div>
+
+        <div class="top-bar-right" data-magellan  id="resmenu">
+          <ul class="vertical medium-horizontal menu">
+            <li><a href="info.html">INFO</a></li>
+            <li><a href="comingsoon.html">FOTOS</a></li>
+            <li><a href="login.php">LOGIN</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <section class="hero-section">
+      <h1 class="header"> MATURAFEIER</h1>
+    </section>
+
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
